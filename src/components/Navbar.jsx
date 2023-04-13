@@ -27,7 +27,7 @@ const handleClick = () => setClick(!click)
                 <Link to='/about' className='nav-link'>About</Link>
             </li>
             <li className="nav-item">
-                <Link to='/' className='nav-link'>Pricing</Link>
+                <Link to='/' className='nav-link'>Prayers</Link>
             </li>
             <li className="nav-item">
                 <Link to='/' className='nav-link'>FAQ</Link>
