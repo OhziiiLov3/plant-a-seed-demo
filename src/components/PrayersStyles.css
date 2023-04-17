@@ -1,0 +1,94 @@
+.prayers-layout {
+    width: 100%;
+    background-color: var(--primary);
+}
+
+.prayers-layout .container{
+    max-width: 1248px;
+    padding: 1rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.prayers-layout .top-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-bottom:  2px solid var(--lightbrown);
+    padding-bottom: 3rem;
+
+}
+
+.prayers-layout .top-content h2{
+    font-size: 38px;
+    padding-bottom: .5rem;
+}
+
+.prayers-layout .top-content span{
+    color: var(--secondary)
+}
+
+.prayers-layout .top-content p {
+    color: var(--fontColor)
+}
+
+.prayers-layout .bottom-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 3rem auto;
+}
+
+.prayers-layout .card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 1rem 0;
+
+}
+
+.prayers-layout .card div{
+    display: flex;
+    border-bottom: 2px solid var(--darkgreen);
+    padding: 1rem 0;
+
+}
+
+
+.prayers-layout .card .no-border{
+    border: none; 
+}
+
+.prayers-layout .card span{
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.prayers-layout .card h3{
+    font-size: 28px;
+    margin: .5rem;
+}
+
+.prayers-layout .card-p {
+   color: var(--secondary);
+
+}
+
+@media screen and (max-width:960px) {
+    .prayers-layout .top-content{
+        grid-template-columns: 1fr;
+    }
+
+    .prayers-layout .container .bottom-content{
+        display: none;
+    }
+
+    .prayers-layout .top-content h2{
+        font-size: 32px;
+    }
+
+
+    
+}
+
+
