@@ -27,10 +27,10 @@ const handleClick = () => setClick(!click)
                 <Link to='/about' className='nav-link'>About</Link>
             </li>
             <li className="nav-item">
-                <Link to='/' className='nav-link'>Prayers</Link>
+                <Link to='/prayers' className='nav-link'>Prayers</Link>
             </li>
             <li className="nav-item">
-                <Link to='/' className='nav-link'>FAQ</Link>
+                <Link to='/faq' className='nav-link'>FAQ</Link>
             </li>
             <li className="nav-item">
                 <Link to='/' className='nav-link'>Contact</Link>

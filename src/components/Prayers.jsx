@@ -13,7 +13,7 @@ const Prayers = () => {
                         <p>Plant the seed, We will water it, God will do rest!</p>
                     </div>
                     <div className="btn-div">
-                        <button>Sow a seed today!</button>
+                        <button style={{backgroundColor: "#dda15e"}}className='button1'>Sow a seed today!</button>
                     </div>
                 </div>
                 <div className="bottom-content">
